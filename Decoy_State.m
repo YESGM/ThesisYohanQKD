@@ -53,7 +53,7 @@ for j= 1:4
         %-----------SKR for attenuated lasers with non-decoy state-----------------
             
             clear mu
-            mu=0.4; %random mu
+            mu=0.5; %random mu
             
             Y0= 2*pdc-pdc^2; %Yield void state
             Y1 = Y0+eta-Y0.*eta; %Yield ( Bob detects a photon given a n-photon signal is emitted by Alice) 
